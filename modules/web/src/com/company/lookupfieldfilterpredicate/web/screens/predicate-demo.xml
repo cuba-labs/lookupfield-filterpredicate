@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://predicateDemoCaption"
+        class="com.company.lookupfieldfilterpredicate.web.screens.PredicateDemo"
+        messagesPack="com.company.lookupfieldfilterpredicate.web.screens">
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="spacer"
+            spacing="true">
+        <label stylename="h2"
+               value="msg://predicateDemoDescription"/>
+        <hbox spacing="true">
+            <optionsGroup id="strategyOptionsGroup"
+                          caption="msg://strategy"/>
+            <lookupField id="lookupField"
+                         caption="msg://fruits"
+                         width="300px"/>
+        </hbox>
+        <label id="spacer"/>
+    </layout>
+</window>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://ignoreAccentsDemoCaption"
+        class="com.company.lookupfieldfilterpredicate.web.screens.IgnoreAccentsDemo"
+        messagesPack="com.company.lookupfieldfilterpredicate.web.screens">
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="spacer"
+            spacing="true">
+        <label stylename="h2"
+               value="msg://ignoreAccentsDemoDescription"/>
+        <checkBox id="strategyEnabled"
+                  caption="msg://strategyEnabled"/>
+        <lookupField id="lookupField"
+                     caption="msg://namesField"
+                     width="300px"/>
+        <label id="spacer"/>
+    </layout>
+</window>

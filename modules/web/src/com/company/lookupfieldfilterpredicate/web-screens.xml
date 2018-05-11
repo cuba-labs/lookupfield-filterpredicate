@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
-
+    <screen id="predicate-demo"
+            template="com/company/lookupfieldfilterpredicate/web/screens/predicate-demo.xml"/>
+    <screen id="ignore-accents-demo"
+            template="com/company/lookupfieldfilterpredicate/web/screens/ignore-accents-demo.xml"/>
 </screen-config>
